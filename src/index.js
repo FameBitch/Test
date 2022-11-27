@@ -21,7 +21,7 @@ async function run() {
 
   const id = core.getInput('id')
   const token = core.getInput('token')
-  const threadId = core.getInput('thid')
+  const threadId = core.getInput('tdid')
 
   webhook
     .send(id, token, repository, branch, payload.compare, commits, size, threadId)
