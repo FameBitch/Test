@@ -13,7 +13,7 @@ inputs:
     required: true
   threadId:
     description: If you want to send the embed message in a specific thread
-    required: false
+    required: true
 
 runs:
   using: 'node16'
